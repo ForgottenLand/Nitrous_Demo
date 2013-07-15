@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 18d93a00ff54cb245857f864f4995eb6
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: House_1st_03_Base_pivot
+    100002: House_1st_03_Chimney_pivot
+    100004: House_1st_03_Column_pivot
+    100006: House_1st_03_Doors_pivot
+    100008: //RootNode
+    100010: House_1st_03_Railings_pivot
+    100012: House_1st_03_Rainwater_pivot
+    100014: House_1st_03_Roof_pivot
+    100016: House_1st_03_Steps_pivot
+    100018: House_1st_03_Top_pivot
+    100020: House_1st_03_Windows_pivot
+    400000: House_1st_03_Base_pivot
+    400002: House_1st_03_Chimney_pivot
+    400004: House_1st_03_Column_pivot
+    400006: House_1st_03_Doors_pivot
+    400008: //RootNode
+    400010: House_1st_03_Railings_pivot
+    400012: House_1st_03_Rainwater_pivot
+    400014: House_1st_03_Roof_pivot
+    400016: House_1st_03_Steps_pivot
+    400018: House_1st_03_Top_pivot
+    400020: House_1st_03_Windows_pivot
+    2300000: House_1st_03_Base_pivot
+    2300002: House_1st_03_Chimney_pivot
+    2300004: House_1st_03_Column_pivot
+    2300006: House_1st_03_Doors_pivot
+    2300008: House_1st_03_Railings_pivot
+    2300010: House_1st_03_Rainwater_pivot
+    2300012: House_1st_03_Roof_pivot
+    2300014: House_1st_03_Steps_pivot
+    2300016: House_1st_03_Top_pivot
+    2300018: House_1st_03_Windows_pivot
+    3300000: House_1st_03_Base_pivot
+    3300002: House_1st_03_Chimney_pivot
+    3300004: House_1st_03_Column_pivot
+    3300006: House_1st_03_Doors_pivot
+    3300008: House_1st_03_Railings_pivot
+    3300010: House_1st_03_Rainwater_pivot
+    3300012: House_1st_03_Roof_pivot
+    3300014: House_1st_03_Steps_pivot
+    3300016: House_1st_03_Top_pivot
+    3300018: House_1st_03_Windows_pivot
+    4300000: House_1st_03_Base_pivot
+    4300002: House_1st_03_Chimney_pivot
+    4300004: House_1st_03_Column_pivot
+    4300006: House_1st_03_Doors_pivot
+    4300008: House_1st_03_Railings_pivot
+    4300010: House_1st_03_Rainwater_pivot
+    4300012: House_1st_03_Roof_pivot
+    4300014: House_1st_03_Steps_pivot
+    4300016: House_1st_03_Top_pivot
+    4300018: House_1st_03_Windows_pivot
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
