@@ -1,7 +1,15 @@
 var style:GUIStyle;
-var adBuddiz : AdBuddizBinding;
+var NotYetDisplayed : boolean;
+
+function Start(){
+	NotYetDisplayed = true;
+}
 
 function OnGUI () {
+	if(NotYetDisplayed){
+		AdBuddizBinding.showAd();
+		NotYetDisplayed = false;		
+	}
 	style.fontSize = 80;
 	style.normal.textColor = Color.cyan;
 	GUI.Label(Rect(430, 30, 1000, 100),"Waterlooers I",style);
@@ -19,8 +27,4 @@ function OnGUI () {
 		GUI.Label(Rect(400, 540, 1000, 100),"Loading practice map...",style);
 		Application.LoadLevel("level2Final");
 	}
-}
-
-function OnLoad(){
-	AdBuddizBinding.showAd();
 }
