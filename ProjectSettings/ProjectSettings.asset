@@ -10,8 +10,8 @@ PlayerSettings:
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: YuzhiWang
-  productName: Gears
+  companyName: Forgottenland Studio
+  productName: Waterlooers I
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -66,7 +66,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.YuzhiWang.Gears
+  iPhoneBundleIdentifier: ca.ForgottenlandStudio.WaterlooersI
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 6
@@ -87,7 +87,7 @@ PlayerSettings:
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
-  iPhoneSplashScreen: {fileID: 2800000, guid: 8097e7a0697e94748a627305c31962f8, type: 3}
+  iPhoneSplashScreen: {fileID: 0}
   iPhoneHighResSplashScreen: {fileID: 0}
   iPhoneTallHighResSplashScreen: {fileID: 0}
   iPadPortraitSplashScreen: {fileID: 0}
@@ -96,17 +96,17 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 2
-  AndroidKeystoreName: C:/Gears/Bin/user.keystore
-  AndroidKeyaliasName: gears
+  AndroidKeystoreName: C:/Waterlooers I/Bin/user.keystore
+  AndroidKeyaliasName: waterlooers i
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 9d5ad4563afd2f0458c366eb4d0e32d0, type: 3}
+    - m_Icon: {fileID: 2800000, guid: c9e8f01d05dee9d4baeea9148440a22f, type: 3}
       m_Size: 128
   - m_BuildTarget: Android
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 0cf9c35e14270a4458de2bd4b65731b0, type: 3}
+    - m_Icon: {fileID: 2800000, guid: c9e8f01d05dee9d4baeea9148440a22f, type: 3}
       m_Size: 96
     - m_Icon: {fileID: 0}
       m_Size: 72

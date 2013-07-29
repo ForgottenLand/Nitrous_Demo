@@ -1,11 +1,12 @@
 var style:GUIStyle;
+var adBuddiz : AdBuddizBinding;
 
 function OnGUI () {
 	style.fontSize = 80;
 	style.normal.textColor = Color.cyan;
-	GUI.Label(Rect(530, 30, 1000, 100),"GEARS",style);
+	GUI.Label(Rect(430, 30, 1000, 100),"Waterlooers I",style);
 	style.fontSize = 40;
-	GUI.Label(Rect(360, 150, 1000, 100),"by Yuzhi Wang and Chinmay Amin",style);
+	GUI.Label(Rect(360, 150, 1000, 100),"presented by Forgottenland Studio",style);
 	style.normal.textColor = Color.yellow;
 	style.fontSize = 40;
 	GUI.Label(Rect(570, 250, 1000, 100),"Instruction:",style);
@@ -18,4 +19,8 @@ function OnGUI () {
 		GUI.Label(Rect(400, 540, 1000, 100),"Loading practice map...",style);
 		Application.LoadLevel("level2Final");
 	}
+}
+
+function OnLoad(){
+	AdBuddizBinding.showAd();
 }

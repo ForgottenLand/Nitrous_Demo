@@ -1,9 +1,6 @@
 Library/
 Temp/
 Bin/
-Gears-csharp.sln
-Gears.userprefs
-Gears.sln
 Assembly-UnityScript-vs.unityproj
 Assembly-UnityScript-firstpass-vs.unityproj
 Assembly-UnityScript-firstpass.unityproj
@@ -22,6 +19,9 @@ Assembly-CSharp-Editor.pidb
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp.pidb
 Assembly-CSharp.csproj
+Waterlooers I-csharp.sln
+Waterlooers I.sln
+Waterlooers I.userprefs
 Assets/0000 ats V2 package/~AlternatePhysicsModel/Source Assets/Cars.meta
 MultiplayerProject-csharp.sln
 MultiplayerProject.sln
