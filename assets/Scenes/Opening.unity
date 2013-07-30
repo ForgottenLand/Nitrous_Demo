@@ -31,6 +31,7 @@ GameObject:
   - 81: {fileID: 36863379}
   - 114: {fileID: 36863384}
   - 114: {fileID: 36863385}
+  - 111: {fileID: 36863386}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -53,6 +54,24 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 0}
   m_ObjectHideFlags: 0
+--- !u!111 &36863386
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36863378}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: af5f7c3b59cc4d147a2bd06557c1d624, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: af5f7c3b59cc4d147a2bd06557c1d624, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!114 &36863384
 MonoBehaviour:
   m_ObjectHideFlags: 0

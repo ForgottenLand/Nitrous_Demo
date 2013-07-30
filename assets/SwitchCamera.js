@@ -1,15 +1,16 @@
 #pragma strict
-
+var timer : float;
+var secondCamera : Camera;
 
 function Start () {
-
+	timer = 8;
+	secondCamera.enabled = false;
 }
 
 function Update () {
-
-	if (Input.GetKeyDown(KeyCode.V)) {
-		
-		GameObject.Find("cameraBehind").GetComponent("Camera").active = true;
-  	    GameObject.Find("Main Camera").GetComponent("ThirdPersonCamera").active = false;
-	}
+	timer -= Time.deltaTime;
+    if (timer < 0){
+    	camera.enabled = false;
+    	secondCamera.enabled = true;
+    }
 }
