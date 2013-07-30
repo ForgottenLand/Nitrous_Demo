@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 9a4a893c3f92f4a218a4269fd0785ef7
-labels:
-- Vehicle
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -343,10 +341,10 @@ ModelImporter:
     4300082: Mesh42
     4300084: Mesh43
     4300086: Mesh44
-    11100000: //RootNode
+    9500000: //RootNode
   materials:
     importMaterials: 1
-    materialName: 3
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -375,7 +373,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 0
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
@@ -394,5 +392,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   additionalBone: 1
-  animationType: 1
+  animationType: 2
   userData: 

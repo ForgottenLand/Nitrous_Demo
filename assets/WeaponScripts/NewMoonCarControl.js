@@ -1,19 +1,9 @@
 var forwardSpeed : float = 180000;
 var turnSpeed : float = 5;
 var style:GUIStyle;
-var NotYetDisplayed : boolean;
-
-function Start(){
-	NotYetDisplayed = true;
-}
-	
 
 function OnGUI () {
-	if(NotYetDisplayed){
-		AdBuddizBinding.showAd();
-		NotYetDisplayed = false;		
-	}
-	
+
 	if (GUI.Button(Rect(Screen.width - 100, Screen.height - 50, 100, 50),"Restart level"))
 	{
 		Application.LoadLevel("Gears");
