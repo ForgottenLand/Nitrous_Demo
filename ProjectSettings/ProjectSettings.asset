@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Forgottenland Studio
-  productName: Waterlooers I
+  productName: Nitrous Demo
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -96,13 +96,13 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 2
-  AndroidKeystoreName: C:/Nitrous Demo/Assets/Keys/user.keystore
-  AndroidKeyaliasName: nitrous demo
+  AndroidKeystoreName: C:/Nitrous Demo/Bin/user.keystore
+  AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: c9e8f01d05dee9d4baeea9148440a22f, type: 3}
+    - m_Icon: {fileID: 0}
       m_Size: 128
   - m_BuildTarget: Android
     m_Icons:
