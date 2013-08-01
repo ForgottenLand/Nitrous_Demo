@@ -3,7 +3,7 @@ var timer : float;
 var secondCamera : Camera;
 
 function Start () {
-	timer = 8;
+	timer = 14;
 	secondCamera.enabled = false;
 }
 
