@@ -23,7 +23,10 @@ function Start () {
 	} else if(guiTexture.texture.name == "select"){
 		guiTexture.pixelInset.x = Screen.width - guiTexture.pixelInset.width - xOffSet;
 		guiTexture.pixelInset.y = yOffSet;
-	}
+	} else if(guiTexture.texture.name == "comingSoon"){
+		guiTexture.pixelInset.x = (Screen.width - guiTexture.pixelInset.width) * xPercent;
+		guiTexture.pixelInset.y = (Screen.height - guiTexture.pixelInset.height) * yPercent;
+	} 
 }
 
 function Update () {

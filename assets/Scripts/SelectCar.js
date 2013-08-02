@@ -5,6 +5,7 @@ var camIsMoved : boolean;
 var touchPosition : Vector3;
 var leftChevron : GUITexture;
 var rightChevron : GUITexture;
+var select : GUITexture;
 
 function Start () {
 	carNum = 0;
@@ -32,27 +33,27 @@ function Update () {
 		switch(carNum){
 			case 0:
 				MoveCamTransform(GameObject.Find("Pgt").transform);
-				camera.cullingMask = -1281;
+				camera.cullingMask = -17665;
 			break;
 			case 1:
 				MoveCamTransform(GameObject.Find("Charger").transform);
-				camera.cullingMask = -8705;
+				camera.cullingMask = -25089;
 			break;
 			case 2:
 				MoveCamTransform(GameObject.Find("Colt").transform);
-				camera.cullingMask = -8705;
+				camera.cullingMask = -8961;
 			break;
 			case 3:
 				MoveCamTransform(GameObject.Find("Nitrous").transform);
-				camera.cullingMask = -8705;
+				camera.cullingMask = -8961;
 			break;
 			case 4:
 				MoveCamTransform(GameObject.Find("Lambo").transform);
-				camera.cullingMask = -10753;
+				camera.cullingMask = -11009;
 			break;
 		}
 		
-		if(Application.platform == RuntimePlatform.Android && Input.touchCount > 0){
+		if(Application.platform == RuntimePlatform.Android && Input.GetTouch(0).phase == TouchPhase.Began && Input.touchCount == 1){
 			touchPosition = Input.GetTouch(0).position;
 			TouchEventHandler(touchPosition.x, touchPosition.y);
 		}
@@ -68,8 +69,8 @@ function MoveCamTransform(targetTranform : Transform){
 		camIsMoved = true;
 		transform.position = targetTranform.position;
 		if(Application.platform == RuntimePlatform.Android){
-			transform.position.x -= 2.3;
-			transform.position.z -= 2.3;
+			transform.position.x -= 2.8;
+			transform.position.z -= 2.8;
 		} else {
 			transform.position.x -= 3.3;
 			transform.position.z -= 3.3;
@@ -81,19 +82,25 @@ function MoveCamTransform(targetTranform : Transform){
 }
 
 function TouchEventHandler(xPos : int, yPos : int){
-	Debug.Log("x: " + touchPosition.x);
-	Debug.Log("y: " + touchPosition.y);
-	//Left chevron is touched/clicked
+//	Debug.Log("x: " + touchPosition.x);
+//	Debug.Log("y: " + touchPosition.y);
 //	Debug.Log("leftChevron.pixelInset.x: " + leftChevron.pixelInset.x);
 //	Debug.Log("leftChevron.pixelInset.width: " + leftChevron.pixelInset.width);
 //	Debug.Log("leftChevron.pixelInset.y: " + leftChevron.pixelInset.y);
 //	Debug.Log("leftChevron.pixelInset.height: " + leftChevron.pixelInset.height);
+	
+	//Left chevron is touched/clicked
 	if((xPos > leftChevron.pixelInset.x && xPos < leftChevron.pixelInset.x + leftChevron.pixelInset.width) && (yPos > leftChevron.pixelInset.y && yPos < leftChevron.pixelInset.y + leftChevron.pixelInset.height)){
 		MoveCam("left");
 	}
 	//Right chevron is touched/clicked
 	if((xPos > rightChevron.pixelInset.x && xPos < rightChevron.pixelInset.x + rightChevron.pixelInset.width) && (yPos > rightChevron.pixelInset.y && yPos < rightChevron.pixelInset.y + rightChevron.pixelInset.height)){
 		MoveCam("right");
+	}
+	
+	//Select texture is touched/clicked
+	if((xPos > select.pixelInset.x && xPos < select.pixelInset.x + select.pixelInset.width) && (yPos > select.pixelInset.y && yPos < select.pixelInset.y + select.pixelInset.height)){
+		StartGame();
 	}
 }
 
@@ -115,4 +122,9 @@ function MoveCam(dir : String){
 		Debug.Log("Move right");
 	}
 		
+}
+
+function StartGame(){
+	if(carNum == 0)
+		Debug.Log("Start Game!");
 }
