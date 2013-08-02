@@ -67,8 +67,13 @@ function MoveCamTransform(targetTranform : Transform){
 	if(!camIsMoved){
 		camIsMoved = true;
 		transform.position = targetTranform.position;
-		transform.position.x -= 3.3;
-		transform.position.z -= 3.3;
+		if(Application.platform == RuntimePlatform.Android){
+			transform.position.x -= 2.3;
+			transform.position.z -= 2.3;
+		} else {
+			transform.position.x -= 3.3;
+			transform.position.z -= 3.3;
+		}
 		transform.position.y += 0.8;
 	}
 	transform.LookAt(targetTranform);
