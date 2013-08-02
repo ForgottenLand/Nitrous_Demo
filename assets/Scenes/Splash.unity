@@ -1354,7 +1354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1394478166
 GameObject:
   m_ObjectHideFlags: 0
@@ -9128,6 +9128,8 @@ MonoBehaviour:
   m_Name: 
   timer: 0
   secondCamera: {fileID: 393157847}
+  touchPosition: {x: 0, y: 0}
+  select: {fileID: 1510570498}
 --- !u!114 &1394478168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9391,7 +9393,7 @@ MonoBehaviour:
   selected: 0
   targetTranform: {fileID: 0}
   camIsMoved: 0
-  touchPosition: {x: 0, y: 0, z: 0}
+  touchPosition: {x: 0, y: 0}
   leftChevron: {fileID: 1196402158}
   rightChevron: {fileID: 1556814580}
   select: {fileID: 1510570498}
@@ -18322,7 +18324,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294963455
+    m_Bits: 4294947071
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0

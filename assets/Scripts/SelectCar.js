@@ -2,7 +2,7 @@ var carNum : float;
 var selected : boolean;
 var targetTranform : Transform;
 var camIsMoved : boolean;
-var touchPosition : Vector3;
+var touchPosition : Vector2;
 var leftChevron : GUITexture;
 var rightChevron : GUITexture;
 var select : GUITexture;
