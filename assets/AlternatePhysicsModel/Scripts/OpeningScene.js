@@ -7,7 +7,6 @@ function Start(){
 
 function OnGUI () {
 	if(NotYetDisplayed){
-		AdBuddizBinding.showAd();
 		NotYetDisplayed = false;		
 	}
 	style.fontSize = 80;

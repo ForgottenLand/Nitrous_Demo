@@ -28,26 +28,27 @@ function Update () {
 		
 		//Play Animation
 	
+		//Debug.Log(camera.cullingMask.ToString());
 		switch(carNum){
 			case 0:
 				MoveCamTransform(GameObject.Find("Pgt").transform);
-				camera.cullingMask = -257;
+				camera.cullingMask = -1281;
 			break;
 			case 1:
 				MoveCamTransform(GameObject.Find("Charger").transform);
-				camera.cullingMask = -513;
+				camera.cullingMask = -8705;
 			break;
 			case 2:
 				MoveCamTransform(GameObject.Find("Colt").transform);
-				camera.cullingMask = -513;
+				camera.cullingMask = -8705;
 			break;
 			case 3:
 				MoveCamTransform(GameObject.Find("Nitrous").transform);
-				camera.cullingMask = -513;
+				camera.cullingMask = -8705;
 			break;
 			case 4:
 				MoveCamTransform(GameObject.Find("Lambo").transform);
-				camera.cullingMask = -513;
+				camera.cullingMask = -10753;
 			break;
 		}
 		

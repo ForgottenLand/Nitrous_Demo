@@ -16,7 +16,7 @@ function Start () {
 		guiTexture.pixelInset.y = (Screen.height - guiTexture.pixelInset.height) * yPercent;
 	} else if(guiTexture.texture.name == "Lock"){
 		guiTexture.pixelInset.x = (Screen.width - guiTexture.pixelInset.width) * xPercent;
-		guiTexture.pixelInset.y = Screen.height - guiTexture.pixelInset.height - yOffSet;
+		guiTexture.pixelInset.y = (Screen.height - guiTexture.pixelInset.height) * yPercent;
 	} else if(guiTexture.texture.name == "openLock"){
 		guiTexture.pixelInset.x = (Screen.width - guiTexture.pixelInset.width) * xPercent;
 		guiTexture.pixelInset.y = Screen.height - guiTexture.pixelInset.height - yOffSet;
