@@ -44,6 +44,26 @@ var style : GUIStyle;
 
 function Awake(){
     
+    enginePower = 60;
+    maxSteer = 12;
+    power = 0;
+    brake = 0;
+    steer = 0;
+    speedTurn = 30;
+    speed = 0;
+    brakePower = 50;
+    driftingTimeout = 0.15;
+    regFriction = 0.3;
+    driftFriction = 0.03;
+    driftFwdFriction = 0.5;
+    frictionRatio = 1.25;
+    startDriftAngVel = 0.6;
+    endDriftAngVel = 0.3;
+    rigidbodyAngVel = 0;
+    steerMultiplier = 1.75;
+    maxSpeed = 280;
+    minDriftSpeed = 130;
+    
     rigidbody.centerOfMass=Vector3(0,-0.9,0.3);
     pos = transform.position;
     prevPos = pos;
