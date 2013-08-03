@@ -6,6 +6,13 @@ var touchPosition : Vector2;
 var leftChevron : GUITexture;
 var rightChevron : GUITexture;
 var select : GUITexture;
+var pgt : GameObject;
+var charger : GameObject;
+var colt : GameObject;
+var nitrous : GameObject;
+var lambo : GameObject;
+var gameCamera : Camera;
+var pgtAdminControl : PgtAdminControl;
 
 function Start () {
 	carNum = 0;
@@ -125,6 +132,14 @@ function MoveCam(dir : String){
 }
 
 function StartGame(){
-	if(carNum == 0)
+	if(carNum == 0){
 		Debug.Log("Start Game!");
+		nitrous.active = false;
+		colt.active = false;
+		lambo.active = false;
+		gameCamera.enabled = true;
+		camera.enabled = false;
+		pgtAdminControl.FindAvatar0();
+		pgt.rigidbody.constraints.value__ = 0;
+	}
 }
